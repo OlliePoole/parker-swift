@@ -22,6 +22,9 @@
 
 /* Begin PBXBuildFile section */
 		6BC551F72380A8AC00444401 /* PolicyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC551F62380A8AC00444401 /* PolicyResponse.swift */; };
+		6BC551F92380B3CA00444401 /* NLPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC551F82380B3CA00444401 /* NLPResponse.swift */; };
+		6BC551FB2380B5B000444401 /* AnalysisRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC551FA2380B5B000444401 /* AnalysisRequest.swift */; };
+		6BC551FE2380B72700444401 /* StringBatchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC551FD2380B72700444401 /* StringBatchService.swift */; };
 		OBJ_1002 /* base32.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_343 /* base32.c */; };
 		OBJ_1008 /* bcrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_347 /* bcrypt.c */; };
 		OBJ_1009 /* blf.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_348 /* blf.c */; };
@@ -4052,6 +4055,9 @@
 
 /* Begin PBXFileReference section */
 		6BC551F62380A8AC00444401 /* PolicyResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolicyResponse.swift; sourceTree = "<group>"; };
+		6BC551F82380B3CA00444401 /* NLPResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPResponse.swift; sourceTree = "<group>"; };
+		6BC551FA2380B5B000444401 /* AnalysisRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisRequest.swift; sourceTree = "<group>"; };
+		6BC551FD2380B72700444401 /* StringBatchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringBatchService.swift; sourceTree = "<group>"; };
 		"Console::Command::Product" /* Command.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Command.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Console::Product" /* Console.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Console.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		"Console::Logging::Product" /* Logging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Logging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -5352,8 +5358,18 @@
 			isa = PBXGroup;
 			children = (
 				6BC551F62380A8AC00444401 /* PolicyResponse.swift */,
+				6BC551F82380B3CA00444401 /* NLPResponse.swift */,
+				6BC551FA2380B5B000444401 /* AnalysisRequest.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		6BC551FC2380B71500444401 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				6BC551FD2380B72700444401 /* StringBatchService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		OBJ_100 /* Utilities */ = {
@@ -6591,7 +6607,7 @@
 			path = Logging;
 			sourceTree = "<group>";
 		};
-		OBJ_5 /*  */ = {
+		OBJ_5 = {
 			isa = PBXGroup;
 			children = (
 				OBJ_6 /* Package.swift */,
@@ -6606,7 +6622,6 @@
 				OBJ_721 /* README.md */,
 				OBJ_722 /* circle.yml */,
 			);
-			name = "";
 			sourceTree = "<group>";
 		};
 		OBJ_501 /* Bits */ = {
@@ -7154,6 +7169,7 @@
 		OBJ_8 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				6BC551FC2380B71500444401 /* Services */,
 				6BC551F52380A89100444401 /* Models */,
 				OBJ_9 /* boot.swift */,
 				OBJ_10 /* configure.swift */,
@@ -8598,7 +8614,7 @@
 				English,
 				en,
 			);
-			mainGroup = OBJ_5 /*  */;
+			mainGroup = OBJ_5;
 			productRefGroup = OBJ_675 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -9513,8 +9529,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				6BC551F92380B3CA00444401 /* NLPResponse.swift in Sources */,
 				OBJ_728 /* boot.swift in Sources */,
 				OBJ_729 /* configure.swift in Sources */,
+				6BC551FB2380B5B000444401 /* AnalysisRequest.swift in Sources */,
+				6BC551FE2380B72700444401 /* StringBatchService.swift in Sources */,
 				6BC551F72380A8AC00444401 /* PolicyResponse.swift in Sources */,
 				OBJ_730 /* routes.swift in Sources */,
 			);

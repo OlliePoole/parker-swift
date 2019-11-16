@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "4997267d4e30847dad6198b0e7b20c72"
+build_time: [1573947229, 741096000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/websocket/Sources/WebSocket/Exports.swift": [1573941424, 19411235]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/websocket/Sources/WebSocket/WebSocket+Client.swift": [1573941424, 19596765]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/websocket/Sources/WebSocket/WebSocket+Server.swift": [1573941424, 19758274]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/websocket/Sources/WebSocket/WebSocket.swift": [1573941424, 20078312]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/websocket/Sources/WebSocket/WebSocketFrameSequence.swift": [1573941424, 20294422]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/websocket/Sources/WebSocket/WebSocketHandler.swift": [1573941424, 20432389]

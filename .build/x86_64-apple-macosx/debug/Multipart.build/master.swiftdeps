@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "2a24dea170bf0390c83881ffb886ad9d"
+build_time: [1573947203, 936727000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/multipart/Sources/Multipart/Exports.swift": [1573941423, 819091079]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/multipart/Sources/Multipart/FormDataDecoder.swift": [1573941423, 819297614]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/multipart/Sources/Multipart/FormDataEncoder.swift": [1573941423, 819470321]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/multipart/Sources/Multipart/MultipartError.swift": [1573941423, 819726122]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/multipart/Sources/Multipart/MultipartParser.swift": [1573941423, 819992314]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/multipart/Sources/Multipart/MultipartPart.swift": [1573941423, 820209450]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/multipart/Sources/Multipart/MultipartPartConvertible.swift": [1573941423, 820378476]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/multipart/Sources/Multipart/MultipartSerializer.swift": [1573941423, 820529225]

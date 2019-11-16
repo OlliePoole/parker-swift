@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "88d86a425c9f5364a9f93a68ea3f65c3"
+build_time: [1573947210, 509777000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/console/Sources/Logging/Exports.swift": [1573941422, 705650925]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/console/Sources/Logging/LogLevel.swift": [1573941422, 705813612]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/console/Sources/Logging/Logger.swift": [1573941422, 705982910]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/console/Sources/Logging/PrintLogger.swift": [1573941422, 706155043]

@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "e64ea62fe24e05a396b89abd4ad66cd6"
+build_time: [1573947399, 417249000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/Sources/App/Models/AnalysisRequest.swift": [1573944894, 985819129]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/Sources/App/Models/NLPResponse.swift": [1573944471, 541284749]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/Sources/App/Models/PolicyResponse.swift": [1573942523, 895332295]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/Sources/App/Services/StringBatchService.swift": [1573945366, 654388532]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/Sources/App/boot.swift": [1573942523, 895631806]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/Sources/App/configure.swift": [1573942523, 895870501]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/Sources/App/routes.swift": [1573946912, 780296912]

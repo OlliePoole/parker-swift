@@ -1,0 +1,4 @@
+module CNIOLinux {
+    umbrella header "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+    export *
+}

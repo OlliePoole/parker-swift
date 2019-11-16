@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "cab09145c567551b606550c48422bc2c"
+build_time: [1573947203, 938270000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Exports.swift": [1573941421, 591402949]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validatable.swift": [1573941421, 591566485]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/ValidationError.swift": [1573941421, 591722008]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validations.swift": [1573941421, 591945851]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validator.swift": [1573941421, 592107126]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/ValidatorType.swift": [1573941421, 592257038]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/AndValidator.swift": [1573941421, 592461288]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/CharacterSetValidator.swift": [1573941421, 592612875]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/CountValidator.swift": [1573941421, 592775448]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/EmailValidator.swift": [1573941421, 592929952]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/EmptyValidator.swift": [1573941421, 593062553]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/InValidator.swift": [1573941421, 593217644]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/NilIgnoringValidator.swift": [1573941421, 593376769]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/NilValidator.swift": [1573941421, 593508045]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/NotValidator.swift": [1573941421, 593650231]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/OrValidator.swift": [1573941421, 593801852]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/RangeValidator.swift": [1573941421, 593941132]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/validation/Sources/Validation/Validators/URLValidator.swift": [1573941421, 594075230]

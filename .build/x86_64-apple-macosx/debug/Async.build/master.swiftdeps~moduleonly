@@ -1,0 +1,19 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "a5c37279f1dd1736d90a95caacc7a2b1"
+build_time: [1573947193, 163741000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Async+NIO.swift": [1573941421, 344993809]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/AsyncError.swift": [1573941421, 345149479]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Collection+Future.swift": [1573941421, 345419643]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Deprecated.swift": [1573941421, 345582579]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Exports.swift": [1573941421, 345712284]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Future+DoCatch.swift": [1573941421, 345869469]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Future+Flatten.swift": [1573941421, 346035678]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Future+Global.swift": [1573941421, 346258550]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Future+Map.swift": [1573941421, 346411346]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Future+Transform.swift": [1573941421, 346572986]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Future+Variadic.swift": [1573941421, 346801414]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Future+Void.swift": [1573941421, 346987970]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/FutureType.swift": [1573941421, 347155794]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/QueueHandler.swift": [1573941421, 347345625]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Async/Worker.swift": [1573941421, 347583947]

@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "076a8aaa689b81e389d9686d96ac2efe"
+build_time: [1573947189, 156852000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/BitsError.swift": [1573941421, 347926201]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/Byte+Alphabet.swift": [1573941421, 348082154]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/Byte+Control.swift": [1573941421, 348229686]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/Byte+Digit.swift": [1573941421, 348409911]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/ByteBuffer+binaryFloatingPointOperations.swift": [1573941421, 348581610]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/ByteBuffer+peek.swift": [1573941421, 348733486]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/ByteBuffer+require.swift": [1573941421, 348903373]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/ByteBuffer+string.swift": [1573941421, 349085315]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/Bytes.swift": [1573941421, 349221083]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/Data+Bytes.swift": [1573941421, 349374681]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/Data+Strings.swift": [1573941421, 349550277]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/core/Sources/Bits/Deprecated.swift": [1573941421, 349681903]

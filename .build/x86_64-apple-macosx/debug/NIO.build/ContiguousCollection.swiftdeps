@@ -1,0 +1,1233 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ContiguousCollection"
+provides-nominal:
+- "3NIO20ContiguousCollectionP"
+- "s12StaticStringV"
+- "SW"
+- "Sw"
+- "s5SliceV"
+- "Sa"
+- "s10ArraySliceV"
+- "s15ContiguousArrayV"
+- "SR"
+- "Sr"
+provides-member:
+- ["3NIO20ContiguousCollectionP", ""]
+- ["s12StaticStringV", ""]
+- ["SW", ""]
+- ["Sw", ""]
+- ["s5SliceV", ""]
+- ["Sa", ""]
+- ["s10ArraySliceV", ""]
+- ["s15ContiguousArrayV", ""]
+- ["SR", ""]
+- ["Sr", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "..<"
+- !private "<"
+- !private "=="
+- "Array"
+- "ArraySlice"
+- "Collection"
+- "ContiguousArray"
+- "ContiguousCollection"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- !private "MemoryLayout"
+- "Slice"
+- "StaticString"
+- !private "StringLiteralType"
+- "UInt8"
+- "UnsafeBufferPointer"
+- "UnsafeMutableBufferPointer"
+- "UnsafeMutableRawBufferPointer"
+- "UnsafeRawBufferPointer"
+- !private "precondition"
+depends-member:
+- ["Sa", "deinit"]
+- ["Sa", "withUnsafeBytes"]
+- ["s10ArraySliceV", "deinit"]
+- ["s10ArraySliceV", "withUnsafeBytes"]
+- !private ["SK", "MemoryLayout"]
+- !private ["SK", "UnsafeRawBufferPointer"]
+- !private ["SK", "base"]
+- !private ["SK", "clamped"]
+- !private ["SK", "count"]
+- !private ["SK", "indices"]
+- !private ["SK", "init"]
+- !private ["SK", "precondition"]
+- !private ["SK", "startIndex"]
+- !private ["SK", "subscript"]
+- ["SK", "withUnsafeBytes"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "pointee"]
+- ["Sl", "Element"]
+- ["Sl", "Index"]
+- ["Sl", "Indices"]
+- ["Sl", "Iterator"]
+- !private ["Sl", "MemoryLayout"]
+- ["Sl", "SubSequence"]
+- ["Sl", "UnsafeRawBufferPointer"]
+- ["Sl", ""]
+- ["Sl", "_Default_Index"]
+- ["Sl", "_Default_Indices"]
+- ["Sl", "_Default_Iterator"]
+- ["Sl", "_copyContents"]
+- ["Sl", "_copyToContiguousArray"]
+- ["Sl", "_customContainsEquatableElement"]
+- ["Sl", "_customIndexOfEquatableElement"]
+- ["Sl", "_customLastIndexOfEquatableElement"]
+- ["Sl", "_failEarlyRangeCheck"]
+- !private ["Sl", "base"]
+- !private ["Sl", "clamped"]
+- ["Sl", "count"]
+- ["Sl", "distance"]
+- ["Sl", "endIndex"]
+- ["Sl", "formIndex"]
+- ["Sl", "index"]
+- ["Sl", "indices"]
+- !private ["Sl", "init"]
+- ["Sl", "isEmpty"]
+- ["Sl", "makeIterator"]
+- !private ["Sl", "precondition"]
+- ["Sl", "startIndex"]
+- ["Sl", "subscript"]
+- ["Sl", "underestimatedCount"]
+- !private ["Sl", "utf8CodeUnitCount"]
+- !private ["Sl", "utf8Start"]
+- ["Sl", "withContiguousStorageIfAvailable"]
+- ["Sl", "withUnsafeBytes"]
+- !private ["SL", "advanced"]
+- !private ["SL", "pointee"]
+- ["s15ContiguousArrayV", "deinit"]
+- ["s15ContiguousArrayV", "withUnsafeBytes"]
+- ["3NIO20ContiguousCollectionP", "Element"]
+- ["3NIO20ContiguousCollectionP", "Index"]
+- ["3NIO20ContiguousCollectionP", "Indices"]
+- ["3NIO20ContiguousCollectionP", "Iterator"]
+- !private ["3NIO20ContiguousCollectionP", "MemoryLayout"]
+- ["3NIO20ContiguousCollectionP", "SubSequence"]
+- ["3NIO20ContiguousCollectionP", "UnsafeRawBufferPointer"]
+- ["3NIO20ContiguousCollectionP", ""]
+- ["3NIO20ContiguousCollectionP", "_Default_Index"]
+- ["3NIO20ContiguousCollectionP", "_Default_Indices"]
+- ["3NIO20ContiguousCollectionP", "_Default_Iterator"]
+- ["3NIO20ContiguousCollectionP", "_copyContents"]
+- ["3NIO20ContiguousCollectionP", "_copyToContiguousArray"]
+- ["3NIO20ContiguousCollectionP", "_customContainsEquatableElement"]
+- ["3NIO20ContiguousCollectionP", "_customIndexOfEquatableElement"]
+- ["3NIO20ContiguousCollectionP", "_customLastIndexOfEquatableElement"]
+- ["3NIO20ContiguousCollectionP", "_failEarlyRangeCheck"]
+- !private ["3NIO20ContiguousCollectionP", "base"]
+- ["3NIO20ContiguousCollectionP", "count"]
+- ["3NIO20ContiguousCollectionP", "distance"]
+- ["3NIO20ContiguousCollectionP", "endIndex"]
+- ["3NIO20ContiguousCollectionP", "formIndex"]
+- ["3NIO20ContiguousCollectionP", "index"]
+- ["3NIO20ContiguousCollectionP", "indices"]
+- !private ["3NIO20ContiguousCollectionP", "init"]
+- ["3NIO20ContiguousCollectionP", "isEmpty"]
+- ["3NIO20ContiguousCollectionP", "makeIterator"]
+- !private ["3NIO20ContiguousCollectionP", "precondition"]
+- ["3NIO20ContiguousCollectionP", "startIndex"]
+- ["3NIO20ContiguousCollectionP", "subscript"]
+- ["3NIO20ContiguousCollectionP", "underestimatedCount"]
+- !private ["3NIO20ContiguousCollectionP", "utf8CodeUnitCount"]
+- !private ["3NIO20ContiguousCollectionP", "utf8Start"]
+- ["3NIO20ContiguousCollectionP", "withContiguousStorageIfAvailable"]
+- ["3NIO20ContiguousCollectionP", "withUnsafeBytes"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- ["s28CustomDebugStringConvertibleP", "Index"]
+- ["s28CustomDebugStringConvertibleP", "Indices"]
+- ["s28CustomDebugStringConvertibleP", "Iterator"]
+- ["s28CustomDebugStringConvertibleP", "SubSequence"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeRawBufferPointer"]
+- ["s28CustomDebugStringConvertibleP", "_Default_Index"]
+- ["s28CustomDebugStringConvertibleP", "_Default_Indices"]
+- ["s28CustomDebugStringConvertibleP", "_Default_Iterator"]
+- ["s28CustomDebugStringConvertibleP", "_copyContents"]
+- ["s28CustomDebugStringConvertibleP", "_copyToContiguousArray"]
+- ["s28CustomDebugStringConvertibleP", "_customContainsEquatableElement"]
+- ["s28CustomDebugStringConvertibleP", "_customIndexOfEquatableElement"]
+- ["s28CustomDebugStringConvertibleP", "_customLastIndexOfEquatableElement"]
+- ["s28CustomDebugStringConvertibleP", "_failEarlyRangeCheck"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "clamped"]
+- ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "distance"]
+- ["s28CustomDebugStringConvertibleP", "endIndex"]
+- ["s28CustomDebugStringConvertibleP", "formIndex"]
+- ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "indices"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "precondition"]
+- ["s28CustomDebugStringConvertibleP", "startIndex"]
+- ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "underestimatedCount"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8CodeUnitCount"]
+- !private ["s28CustomDebugStringConvertibleP", "utf8Start"]
+- ["s28CustomDebugStringConvertibleP", "withContiguousStorageIfAvailable"]
+- ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- ["s17CustomReflectableP", "Element"]
+- ["s17CustomReflectableP", "Index"]
+- ["s17CustomReflectableP", "Indices"]
+- ["s17CustomReflectableP", "Iterator"]
+- ["s17CustomReflectableP", "SubSequence"]
+- !private ["s17CustomReflectableP", "UnsafeRawBufferPointer"]
+- ["s17CustomReflectableP", "_Default_Index"]
+- ["s17CustomReflectableP", "_Default_Indices"]
+- ["s17CustomReflectableP", "_Default_Iterator"]
+- ["s17CustomReflectableP", "_copyContents"]
+- ["s17CustomReflectableP", "_copyToContiguousArray"]
+- ["s17CustomReflectableP", "_customContainsEquatableElement"]
+- ["s17CustomReflectableP", "_customIndexOfEquatableElement"]
+- ["s17CustomReflectableP", "_customLastIndexOfEquatableElement"]
+- ["s17CustomReflectableP", "_failEarlyRangeCheck"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "clamped"]
+- ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "distance"]
+- ["s17CustomReflectableP", "endIndex"]
+- ["s17CustomReflectableP", "formIndex"]
+- ["s17CustomReflectableP", "index"]
+- ["s17CustomReflectableP", "indices"]
+- ["s17CustomReflectableP", "isEmpty"]
+- ["s17CustomReflectableP", "makeIterator"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "precondition"]
+- ["s17CustomReflectableP", "startIndex"]
+- ["s17CustomReflectableP", "subscript"]
+- ["s17CustomReflectableP", "underestimatedCount"]
+- !private ["s17CustomReflectableP", "utf8CodeUnitCount"]
+- !private ["s17CustomReflectableP", "utf8Start"]
+- ["s17CustomReflectableP", "withContiguousStorageIfAvailable"]
+- ["s17CustomReflectableP", "withUnsafeBytes"]
+- ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", "Index"]
+- ["s23CustomStringConvertibleP", "Indices"]
+- ["s23CustomStringConvertibleP", "Iterator"]
+- ["s23CustomStringConvertibleP", "SubSequence"]
+- !private ["s23CustomStringConvertibleP", "UnsafeRawBufferPointer"]
+- ["s23CustomStringConvertibleP", "_Default_Index"]
+- ["s23CustomStringConvertibleP", "_Default_Indices"]
+- ["s23CustomStringConvertibleP", "_Default_Iterator"]
+- ["s23CustomStringConvertibleP", "_copyContents"]
+- ["s23CustomStringConvertibleP", "_copyToContiguousArray"]
+- ["s23CustomStringConvertibleP", "_customContainsEquatableElement"]
+- ["s23CustomStringConvertibleP", "_customIndexOfEquatableElement"]
+- ["s23CustomStringConvertibleP", "_customLastIndexOfEquatableElement"]
+- ["s23CustomStringConvertibleP", "_failEarlyRangeCheck"]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "clamped"]
+- ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "distance"]
+- ["s23CustomStringConvertibleP", "endIndex"]
+- ["s23CustomStringConvertibleP", "formIndex"]
+- ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "indices"]
+- ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "makeIterator"]
+- !private ["s23CustomStringConvertibleP", "precondition"]
+- ["s23CustomStringConvertibleP", "startIndex"]
+- ["s23CustomStringConvertibleP", "subscript"]
+- ["s23CustomStringConvertibleP", "underestimatedCount"]
+- !private ["s23CustomStringConvertibleP", "utf8CodeUnitCount"]
+- !private ["s23CustomStringConvertibleP", "utf8Start"]
+- ["s23CustomStringConvertibleP", "withContiguousStorageIfAvailable"]
+- ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["Se", "clamped"]
+- ["Se", "withUnsafeBytes"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["SE", "clamped"]
+- ["SE", "withUnsafeBytes"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "clamped"]
+- !private ["SQ", "pointee"]
+- ["SQ", "withUnsafeBytes"]
+- ["s25ExpressibleByArrayLiteralP", "withUnsafeBytes"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Element"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Index"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Indices"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Iterator"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "SubSequence"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnsafeRawBufferPointer"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_Index"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_Indices"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_Iterator"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_copyContents"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_copyToContiguousArray"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_customContainsEquatableElement"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_customIndexOfEquatableElement"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_customLastIndexOfEquatableElement"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_failEarlyRangeCheck"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "count"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "distance"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "endIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "formIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "index"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "indices"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "makeIterator"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "precondition"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "startIndex"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "underestimatedCount"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8CodeUnitCount"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "utf8Start"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withContiguousStorageIfAvailable"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "withUnsafeBytes"]
+- ["s26ExpressibleByStringLiteralP", "Element"]
+- ["s26ExpressibleByStringLiteralP", "Index"]
+- ["s26ExpressibleByStringLiteralP", "Indices"]
+- ["s26ExpressibleByStringLiteralP", "Iterator"]
+- ["s26ExpressibleByStringLiteralP", "SubSequence"]
+- !private ["s26ExpressibleByStringLiteralP", "UnsafeRawBufferPointer"]
+- ["s26ExpressibleByStringLiteralP", "_Default_Index"]
+- ["s26ExpressibleByStringLiteralP", "_Default_Indices"]
+- ["s26ExpressibleByStringLiteralP", "_Default_Iterator"]
+- ["s26ExpressibleByStringLiteralP", "_copyContents"]
+- ["s26ExpressibleByStringLiteralP", "_copyToContiguousArray"]
+- ["s26ExpressibleByStringLiteralP", "_customContainsEquatableElement"]
+- ["s26ExpressibleByStringLiteralP", "_customIndexOfEquatableElement"]
+- ["s26ExpressibleByStringLiteralP", "_customLastIndexOfEquatableElement"]
+- ["s26ExpressibleByStringLiteralP", "_failEarlyRangeCheck"]
+- ["s26ExpressibleByStringLiteralP", "count"]
+- ["s26ExpressibleByStringLiteralP", "distance"]
+- ["s26ExpressibleByStringLiteralP", "endIndex"]
+- ["s26ExpressibleByStringLiteralP", "formIndex"]
+- ["s26ExpressibleByStringLiteralP", "index"]
+- ["s26ExpressibleByStringLiteralP", "indices"]
+- ["s26ExpressibleByStringLiteralP", "isEmpty"]
+- ["s26ExpressibleByStringLiteralP", "makeIterator"]
+- !private ["s26ExpressibleByStringLiteralP", "precondition"]
+- ["s26ExpressibleByStringLiteralP", "startIndex"]
+- ["s26ExpressibleByStringLiteralP", "subscript"]
+- ["s26ExpressibleByStringLiteralP", "underestimatedCount"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8CodeUnitCount"]
+- !private ["s26ExpressibleByStringLiteralP", "utf8Start"]
+- ["s26ExpressibleByStringLiteralP", "withContiguousStorageIfAvailable"]
+- ["s26ExpressibleByStringLiteralP", "withUnsafeBytes"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Element"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Index"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Indices"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Iterator"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "SubSequence"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "UnsafeRawBufferPointer"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_Index"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_Indices"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_Iterator"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_copyContents"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_copyToContiguousArray"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_customContainsEquatableElement"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_customIndexOfEquatableElement"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_customLastIndexOfEquatableElement"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_failEarlyRangeCheck"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "count"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "distance"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "endIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "formIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "index"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "indices"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "isEmpty"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "makeIterator"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "precondition"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "startIndex"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "underestimatedCount"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8CodeUnitCount"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "utf8Start"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "withContiguousStorageIfAvailable"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "withUnsafeBytes"]
+- !private ["SH", "advanced"]
+- !private ["SH", "clamped"]
+- !private ["SH", "pointee"]
+- ["SH", "withUnsafeBytes"]
+- !private ["s20LazySequenceProtocolP", "MemoryLayout"]
+- !private ["s20LazySequenceProtocolP", "UnsafeRawBufferPointer"]
+- !private ["s20LazySequenceProtocolP", "base"]
+- !private ["s20LazySequenceProtocolP", "count"]
+- !private ["s20LazySequenceProtocolP", "precondition"]
+- !private ["s20LazySequenceProtocolP", "startIndex"]
+- ["s20LazySequenceProtocolP", "withUnsafeBytes"]
+- !private ["s12MemoryLayoutO", "stride"]
+- !private ["SM", "MemoryLayout"]
+- !private ["SM", "UnsafeRawBufferPointer"]
+- !private ["SM", "base"]
+- !private ["SM", "count"]
+- !private ["SM", "precondition"]
+- !private ["SM", "startIndex"]
+- ["SM", "withUnsafeBytes"]
+- !private ["Sk", "MemoryLayout"]
+- !private ["Sk", "UnsafeRawBufferPointer"]
+- !private ["Sk", "base"]
+- !private ["Sk", "clamped"]
+- !private ["Sk", "count"]
+- !private ["Sk", "indices"]
+- !private ["Sk", "init"]
+- !private ["Sk", "precondition"]
+- !private ["Sk", "startIndex"]
+- !private ["Sk", "subscript"]
+- ["Sk", "withUnsafeBytes"]
+- !private ["Sn", "clamped"]
+- !private ["SX", "clamped"]
+- !private ["Sm", "MemoryLayout"]
+- !private ["Sm", "UnsafeRawBufferPointer"]
+- !private ["Sm", "base"]
+- !private ["Sm", "count"]
+- !private ["Sm", "precondition"]
+- !private ["Sm", "startIndex"]
+- ["Sm", "withUnsafeBytes"]
+- ["ST", "Element"]
+- ["ST", "Index"]
+- ["ST", "Indices"]
+- ["ST", "Iterator"]
+- !private ["ST", "MemoryLayout"]
+- ["ST", "SubSequence"]
+- ["ST", "UnsafeRawBufferPointer"]
+- ["ST", ""]
+- ["ST", "_Default_Index"]
+- ["ST", "_Default_Indices"]
+- ["ST", "_Default_Iterator"]
+- ["ST", "_copyContents"]
+- ["ST", "_copyToContiguousArray"]
+- ["ST", "_customContainsEquatableElement"]
+- ["ST", "_customIndexOfEquatableElement"]
+- ["ST", "_customLastIndexOfEquatableElement"]
+- ["ST", "_failEarlyRangeCheck"]
+- !private ["ST", "base"]
+- !private ["ST", "clamped"]
+- ["ST", "count"]
+- ["ST", "distance"]
+- ["ST", "endIndex"]
+- ["ST", "formIndex"]
+- ["ST", "index"]
+- ["ST", "indices"]
+- !private ["ST", "init"]
+- ["ST", "isEmpty"]
+- ["ST", "makeIterator"]
+- !private ["ST", "precondition"]
+- ["ST", "startIndex"]
+- ["ST", "subscript"]
+- ["ST", "underestimatedCount"]
+- !private ["ST", "utf8CodeUnitCount"]
+- !private ["ST", "utf8Start"]
+- ["ST", "withContiguousStorageIfAvailable"]
+- ["ST", "withUnsafeBytes"]
+- ["s5SliceV", "ContiguousCollection"]
+- !private ["s5SliceV", "MemoryLayout"]
+- ["s5SliceV", "UnsafeRawBufferPointer"]
+- !private ["s5SliceV", "base"]
+- !private ["s5SliceV", "count"]
+- ["s5SliceV", "deinit"]
+- !private ["s5SliceV", "precondition"]
+- !private ["s5SliceV", "startIndex"]
+- ["s5SliceV", "withUnsafeBytes"]
+- ["s12StaticStringV", "ArraySlice"]
+- ["s12StaticStringV", "Element"]
+- ["s12StaticStringV", "Index"]
+- ["s12StaticStringV", "Indices"]
+- ["s12StaticStringV", "Int"]
+- ["s12StaticStringV", "Iterator"]
+- ["s12StaticStringV", "SubSequence"]
+- ["s12StaticStringV", "UInt8"]
+- ["s12StaticStringV", "UnsafeRawBufferPointer"]
+- ["s12StaticStringV", "_Default_Index"]
+- ["s12StaticStringV", "_Default_Indices"]
+- ["s12StaticStringV", "_Default_Iterator"]
+- ["s12StaticStringV", "_Index"]
+- ["s12StaticStringV", "_copyContents"]
+- ["s12StaticStringV", "_copyToContiguousArray"]
+- ["s12StaticStringV", "_customContainsEquatableElement"]
+- ["s12StaticStringV", "_customIndexOfEquatableElement"]
+- ["s12StaticStringV", "_customLastIndexOfEquatableElement"]
+- ["s12StaticStringV", "_failEarlyRangeCheck"]
+- ["s12StaticStringV", "count"]
+- ["s12StaticStringV", "deinit"]
+- ["s12StaticStringV", "distance"]
+- ["s12StaticStringV", "endIndex"]
+- ["s12StaticStringV", "formIndex"]
+- ["s12StaticStringV", "index"]
+- ["s12StaticStringV", "indices"]
+- ["s12StaticStringV", "isEmpty"]
+- ["s12StaticStringV", "makeIterator"]
+- !private ["s12StaticStringV", "precondition"]
+- ["s12StaticStringV", "startIndex"]
+- ["s12StaticStringV", "subscript"]
+- ["s12StaticStringV", "underestimatedCount"]
+- !private ["s12StaticStringV", "utf8CodeUnitCount"]
+- !private ["s12StaticStringV", "utf8Start"]
+- ["s12StaticStringV", "withContiguousStorageIfAvailable"]
+- ["s12StaticStringV", "withUnsafeBytes"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "pointee"]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
+- ["SR", "UnsafeRawBufferPointer"]
+- ["SR", "deinit"]
+- ["SR", "withUnsafeBytes"]
+- ["Sr", "UnsafeRawBufferPointer"]
+- ["Sr", "deinit"]
+- ["Sr", "withUnsafeBytes"]
+- ["Sw", "UnsafeRawBufferPointer"]
+- ["Sw", "deinit"]
+- ["Sw", "withUnsafeBytes"]
+- !private ["SP", "advanced"]
+- !private ["SP", "pointee"]
+- ["SW", "UnsafeRawBufferPointer"]
+- ["SW", "deinit"]
+- !private ["SW", "indices"]
+- !private ["SW", "init"]
+- !private ["SW", "startIndex"]
+- !private ["SW", "subscript"]
+- ["SW", "withUnsafeBytes"]
+- ["s14_ArrayProtocolP", "withUnsafeBytes"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "pointee"]
+- ["s24_DestructorSafeContainerP", "withUnsafeBytes"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Element"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Index"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Indices"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Iterator"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "SubSequence"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "UnsafeRawBufferPointer"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_Default_Index"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_Default_Indices"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_Default_Iterator"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_copyContents"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_copyToContiguousArray"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_customContainsEquatableElement"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_customIndexOfEquatableElement"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_customLastIndexOfEquatableElement"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "_failEarlyRangeCheck"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "count"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "distance"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "endIndex"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "formIndex"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "index"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "indices"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "isEmpty"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "makeIterator"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "precondition"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "startIndex"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "subscript"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "underestimatedCount"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8CodeUnitCount"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "utf8Start"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withContiguousStorageIfAvailable"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "withUnsafeBytes"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Element"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Index"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Indices"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "Iterator"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "SubSequence"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "UnsafeRawBufferPointer"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_Default_Index"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_Default_Indices"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_Default_Iterator"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_copyContents"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_copyToContiguousArray"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_customContainsEquatableElement"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_customIndexOfEquatableElement"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_customLastIndexOfEquatableElement"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "_failEarlyRangeCheck"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "count"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "distance"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "endIndex"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "formIndex"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "index"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "indices"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "isEmpty"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "makeIterator"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "precondition"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "startIndex"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "subscript"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "underestimatedCount"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8CodeUnitCount"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "utf8Start"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "withContiguousStorageIfAvailable"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "withUnsafeBytes"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Element"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Index"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Indices"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Iterator"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "SubSequence"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "UnsafeRawBufferPointer"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_Default_Index"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_Default_Indices"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_Default_Iterator"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_copyContents"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_copyToContiguousArray"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_customContainsEquatableElement"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_customIndexOfEquatableElement"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_customLastIndexOfEquatableElement"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "_failEarlyRangeCheck"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "count"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "distance"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "endIndex"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "formIndex"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "index"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "indices"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "isEmpty"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "makeIterator"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "precondition"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "startIndex"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "subscript"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "underestimatedCount"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8CodeUnitCount"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "utf8Start"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withContiguousStorageIfAvailable"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "withUnsafeBytes"]
+- !private ["s19_HasContiguousBytesP", "UnsafeRawBufferPointer"]
+- !private ["s19_HasContiguousBytesP", "indices"]
+- !private ["s19_HasContiguousBytesP", "init"]
+- !private ["s19_HasContiguousBytesP", "startIndex"]
+- !private ["s19_HasContiguousBytesP", "subscript"]
+- ["s19_HasContiguousBytesP", "withUnsafeBytes"]
+- ["s35_HasCustomAnyHashableRepresentationP", "withUnsafeBytes"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "pointee"]
+depends-nominal:
+- "Sa"
+- "s10ArraySliceV"
+- "SK"
+- !private "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "s15ContiguousArrayV"
+- "3NIO20ContiguousCollectionP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- "s20LazySequenceProtocolP"
+- !private "s12MemoryLayoutO"
+- "SM"
+- "Sk"
+- !private "Sn"
+- !private "SX"
+- "Sm"
+- "ST"
+- "s5SliceV"
+- "s12StaticStringV"
+- !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "s16TextOutputStreamP"
+- "SR"
+- "Sr"
+- "Sw"
+- !private "SP"
+- "SW"
+- "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- "s24_DestructorSafeContainerP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s19_HasContiguousBytesP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/ObjectiveC.swiftmodule/x86_64.swiftinterface"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Dispatch.swiftmodule/x86_64.swiftinterface"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Darwin.swiftmodule/x86_64.swiftinterface"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/Swift.swiftmodule/x86_64.swiftinterface"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/SwiftOnoneSupport.swiftmodule/x86_64.swiftinterface"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Combine.framework/Modules/Combine.swiftmodule/x86_64-apple-macos.swiftinterface"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/x86_64-apple-macosx/debug/NIOConcurrencyHelpers.swiftmodule"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_timeval32.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/hashtable2.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_timeval64.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_ucontext64.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/netinet6/in6.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/alloca.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/net/if_media.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/fasttrap_isa.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/fasttrap_isa.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/sdt_isa.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/sdt_isa.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/data.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/quota.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/stab.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/unpcb.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/netdb.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/timeb.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/stdlib.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_stdlib.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/ranlib.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/glob.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_timespec.h"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/cpp_magic.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libkern/OSAtomic.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/objc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/objc-sync.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/sync.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_sync.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_o_sync.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_o_dsync.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/reloc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/malloc/malloc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/malloc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/malloc/_malloc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/proc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/ipc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/rpc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/rpc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/rpc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/filedesc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/exc.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/pthread/pthread.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/objc-load.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/pthread/sched.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/ucred.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libkern/OSAtomicDeprecated.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libkern/OSSpinLockDeprecated.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_ctermid.h"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/CNIOLinux/include/ifaddrs-android.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/uuid/uuid.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/gethostuuid.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/dyld.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/vcmd.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/kmod.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/bsm/audit_record.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/unistd.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/unistd.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/pwd.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_interface.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/trace.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/once.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/source.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/resource.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/rbtree.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/ThreadLocalStorage.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/message.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/message.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/locale.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_locale.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_xlocale.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_purgable.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_posix_vdisable.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/hashtable.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/file.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/clonefile.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/profile.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/profile.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/copyfile.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/utsname.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/time.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/time.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/time.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_time.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_time.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/NSObjCRuntime.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/objc-runtime.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/runtime.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/utime.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_os_inline.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/pipe.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/ctype.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_ctype.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_ctype.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/wctype.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_wctype.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_wctype.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/__wctype.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/__wctype.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/runetype.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/semaphore.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/semaphore.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/semaphore.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/semaphore.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/base.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/os/base.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/readpassphrase.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/thread_state.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/thread_state.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/net/route.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libkern/OSAtomicQueue.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/queue.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/queue.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/time_value.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_page_size.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fd_setsize.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fd_def.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStddef.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/net/if.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/conf.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_offsetof.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/buf.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/msgbuf.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/mbuf.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/sbuf.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/fp_reg.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mig.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/compact_unwind_encoding.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/string.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_string.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/secure/_string.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_symbol_aliasing.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/AssertionReporting.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/syslog.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/syslog.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/msg.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/fmtmsg.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach_debug/mach_debug.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/arch.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/search.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/fnmatch.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/dispatch.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/thread_switch.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/KeyPath.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/math.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/tgmath.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/kauth.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/objc-api.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/port_obj.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_sigaltstack.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/os/lock.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/lock.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Block.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/block.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/clock.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/task.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_task.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/disk.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/signal.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/signal.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/signal.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/signal.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/AvailabilityInternal.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_timeval.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/acl.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/net/if_dl.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/dyld_kernel.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/util.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/syscall.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/ncurses_dll.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/poll.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/poll.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_null.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/Protocol.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdbool.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/kern_control.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/pthread/pthread_impl.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/unctrl.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/ioctl.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/sysctl.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/fcntl.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/fcntl.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/param.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/param.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/param.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/_param.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/_param.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_param.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/vm_param.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/vm_param.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_param.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/vmparam.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/vmparam.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/ndbm.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/sem.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/posix_sem.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types/_nl_item.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/System.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/shm.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/posix_shm.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/ioccom.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/ttycom.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Random.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/bsm/libbsm.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/vm.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_vm.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/boolean.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/boolean.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/boolean.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/endian.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/endian.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_endian.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/mman.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dlfcn.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libgen.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/netinet/in.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/domain.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/sys_domain.h"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/CNIODarwin/include/CNIODarwin.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/shared_region.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_region.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/objc-exception.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/exception.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/exception.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/exception.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/gmon.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/secure/_common.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/kern_return.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/kern_return.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/kern_return.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/un.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/pthread/spawn.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/spawn.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/spawn.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/proc_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach_debug/ipc_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/thread_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach_debug/page_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach_debug/zone_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach_debug/hash_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/task_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach_debug/vm_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach_debug/lockgroup_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/processor_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/processor_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/processor_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/host_info.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/langinfo.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_langinfo.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/io.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/aio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/aio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/stdio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/stdio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_stdio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_stdio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/secure/_stdio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/sockio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/filio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/cpio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/uio.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/errno.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/errno.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fd_zero.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/objc-auto.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_map.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/bootstrap.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/swap.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/netinet/tcp.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/setjmp.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/utmp.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/workloop.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/grp.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/group.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/wordexp.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_u_char.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/wchar.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_wchar.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/tar.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/net/if_var.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/resourcevar.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/signalvar.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/socketvar.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/ndr.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/loader.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libkern/i386/OSByteOrder.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libkern/OSByteOrder.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libkern/i386/_OSByteOrder.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libkern/_OSByteOrder.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/byte_order.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/architecture/byte_order.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/user.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/dir.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fd_clr.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_behavior.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/error.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_error.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/processor.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/err.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/hfs/hfs_unistr.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/attr.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/xattr.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeStubs.h"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_statistics.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/dyld_images.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/times.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/MacTypes.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/std_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/device/device_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/net/if_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach_debug/mach_debug_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/clock_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/kernel_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/nl_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/vm_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/vm_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/exception_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_voucher_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/memory_object_types.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/inttypes.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_inttypes.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/curses.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_attributes.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/cdefs.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/statvfs.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xattr_flags.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/eflags.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/strings.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/secure/_strings.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/paths.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/pthread_spis.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/TargetConditionals.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_syscalls.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/LibcShims.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/UnicodeShims.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RuntimeShims.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/FoundationShims.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/CoreFoundationShims.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/ObjectiveCOverlayShims.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/LibcOverlayShims.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/DispatchOverlayShims.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/ldsyms.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/termios.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/termios.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/pthread/qos.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/qos.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/ConditionalMacros.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/AssertMacros.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/AvailabilityMacros.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_traps.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/ifaddrs.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mig_errors.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/objc-class.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/GlobalObjects.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/_structs.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/_structs.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/limits.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/limits.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/limits.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/_limits.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/_limits.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/syslimits.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sysexits.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/ttydefaults.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/appleapiopts.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/thread_special_ports.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/task_special_ports.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/host_special_ports.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/i386/thread_status.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/thread_status.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/thread_status.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_int32_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_u_int32_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types/_uint32_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_ino64_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_int64_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_u_int64_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types/_uint64_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_int16_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_u_int16_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types/_uint16_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_int8_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_u_int8_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types/_uint8_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_filesec_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_iovec_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_id_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fsobj_id_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_gid_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_pid_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fsid_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_uid_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_guid_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_uuid_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_cond_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_once_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_mode_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_time_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_rune_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_ct_rune_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types/_wctype_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_mbstate_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_size_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_blksize_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_rsize_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_ssize_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_ptrdiff_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_off_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_clock_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_nlink_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_socklen_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_ino_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_errno_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_wchar_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_in_addr_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_caddr_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_intptr_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_uintptr_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_attr_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_rwlockattr_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_mutexattr_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_useconds_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_suseconds_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types/_wctrans_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_sigset_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_blkcnt_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fsblkcnt_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fsfilcnt_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_wint_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_mach_port_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_in_port_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_dev_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types/_intmax_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_types/_uintmax_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_key_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_pthread/_pthread_key_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_sa_family_t.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/fat.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/hfs/hfs_format.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/float.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/stat.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/dkstat.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/thread_act.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/acct.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/Object.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/NSObject.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/HeapObject.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/object.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/os/object.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/select.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_select.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/task_inspect.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/getsect.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/machine/sdt.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/sdt.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/sdt.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Target.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/socket.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/arpa/inet.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fd_set.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/lock_set.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_seek_set.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/processor_set.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fd_isset.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/wait.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/bsm/audit.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/ulimit.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_init.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_inherit.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_s_ifmt.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dirent.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/dirent.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/event.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_u_int.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/SwiftStdint.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/stdint.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/RefCount.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/mount.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/hfs/hfs_mount.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/reboot.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/host_reboot.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/vm_prot.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/getopt.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_u_short.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/port.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/device/device_port.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_port.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/netport.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_va_list.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/nlist.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/mach_host.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/kdebug_signpost.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/i386/_mcontext.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/machine/_mcontext.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/ucontext.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_ucontext.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/ev.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/net/net_kev.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/clock_priv.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/host_priv.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/fenv.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/utfconv.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/iconv.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/ftw.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/regex.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/_regex.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_regex.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/complex.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/utmpx.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/lctx.h"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/CNIOLinux/include/CNIOLinux.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/policy.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/sync_policy.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/thread_policy.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/task_policy.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/notify.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/host_notify.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/clock_reply.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_types/_fd_copy.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/monetary.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xlocale/_monetary.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Availability.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/os/availability.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/_posix_availability.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/Visibility.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach/host_security.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/sys/tty.h"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/mach-o/module.map"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libxml2/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/module.modulemap"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/x86_64-apple-macosx/debug/CNIOSHA1.build/module.modulemap"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/x86_64-apple-macosx/debug/CNIOOpenSSL.build/module.modulemap"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/x86_64-apple-macosx/debug/CCryptoOpenSSL.build/module.modulemap"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/x86_64-apple-macosx/debug/CNIOZlib.build/module.modulemap"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/x86_64-apple-macosx/debug/CNIODarwin.build/module.modulemap"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/x86_64-apple-macosx/debug/CNIOHTTPParser.build/module.modulemap"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/x86_64-apple-macosx/debug/CNIOAtomics.build/module.modulemap"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/x86_64-apple-macosx/debug/CNIOLinux.build/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/simd/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/dispatch/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/ffi/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/CommonCrypto/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/swift/shims/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libxslt/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/libexslt/module.modulemap"
+- "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-zlib-support/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/tidy/module.modulemap"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Users/oliverpoole/Downloads/Xcode_11.2.1.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "bba0f6d8e62adafdf2582e932ec7fd0b"

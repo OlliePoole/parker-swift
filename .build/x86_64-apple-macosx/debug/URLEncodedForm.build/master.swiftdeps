@@ -1,0 +1,12 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "dca5cad38430a7c152a10dd2365a1584"
+build_time: [1573947203, 936859000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormDecoder.swift": [1573941424, 398775771]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Codable/URLEncodedFormEncoder.swift": [1573941424, 399034702]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormData.swift": [1573941424, 399294770]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormDataConvertible.swift": [1573941424, 399518263]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormParser.swift": [1573941424, 399695195]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Data/URLEncodedFormSerializer.swift": [1573941424, 399907916]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/Exports.swift": [1573941424, 400132979]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/url-encoded-form/Sources/URLEncodedForm/Utilities/URLEncodedFormError.swift": [1573941424, 400297769]

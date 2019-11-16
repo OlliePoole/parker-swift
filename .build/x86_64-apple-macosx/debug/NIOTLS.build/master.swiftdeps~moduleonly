@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "1c3a13f1d6457f0d78dda3202c1ad7b9"
+build_time: [1573947189, 153399000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift": [1573941422, 427266854]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": [1573941422, 427606046]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": [1573941422, 427862313]

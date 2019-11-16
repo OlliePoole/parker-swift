@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "4bea67f2f3eb6264190d50baa134abc1"
+build_time: [1573947211, 873822000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Parameter/Parameter.swift": [1573941424, 826390897]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Parameter/ParameterValue.swift": [1573941424, 826541037]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Parameter/Parameters.swift": [1573941424, 826751125]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Register/PathComponent.swift": [1573941424, 827170280]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Register/Route.swift": [1573941424, 827362648]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Register/RouterOption.swift": [1573941424, 827511237]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Routing/RoutableComponent.swift": [1573941424, 827698050]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Routing/RouterNode.swift": [1573941424, 827849532]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Routing/TrieRouter.swift": [1573941424, 828000464]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Utilities/Deprecated.swift": [1573941424, 828247067]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Utilities/Exports.swift": [1573941424, 828412208]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/routing/Sources/Routing/Utilities/RoutingError.swift": [1573941424, 828572527]

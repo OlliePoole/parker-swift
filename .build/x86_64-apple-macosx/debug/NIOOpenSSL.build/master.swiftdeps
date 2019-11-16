@@ -1,0 +1,21 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "8de6f9eaf1d7d0c511bd85935e989c19"
+build_time: [1573947193, 536411000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/ByteBufferBIO.swift": [1573941422, 58368417]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/IdentityVerification.swift": [1573941422, 58570874]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLClientHandler.swift": [1573941422, 58736715]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLHandler.swift": [1573941422, 59036274]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/OpenSSLServerHandler.swift": [1573941422, 59299561]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/PosixPort.swift": [1573941422, 59480540]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLCertificate.swift": [1573941422, 59700582]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLConnection.swift": [1573941422, 59956635]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLContext.swift": [1573941422, 60210307]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLErrors.swift": [1573941422, 60421204]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLInit.swift": [1573941422, 60585171]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPKCS12Bundle.swift": [1573941422, 60773071]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPointerTricks.swift": [1573941422, 60961312]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPrivateKey.swift": [1573941422, 61219256]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLPublicKey.swift": [1573941422, 61407406]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/SSLVerificationCallbacks.swift": [1573941422, 61565199]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio-ssl/Sources/NIOOpenSSL/TLSConfiguration.swift": [1573941422, 61749563]

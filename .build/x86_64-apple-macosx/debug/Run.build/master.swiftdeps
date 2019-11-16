@@ -1,0 +1,5 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "3798a2f48fc9b5926057285e0887b57f"
+build_time: [1573947401, 184386000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/Sources/Run/main.swift": [1573942523, 896430137]

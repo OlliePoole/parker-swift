@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
+options: "8c9f963c13276b7ea9f87cce36bcf7cd"
+build_time: [1573947166, 848950000]
+inputs:
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/Heap.swift": [1573941422, 426680132]
+  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/NIOPriorityQueue/PriorityQueue.swift": [1573941422, 426846994]

@@ -6,62 +6,54 @@ public func routes(_ router: Router) throws {
     router.post("analyse") { req -> Future<PolicyResponse> in
         
         let privacyContent = try req.content.syncDecode(AnalysisRequest.self).content
-        
-        let itemOne = PolicyResponse.PolicyItem(
-            title: "Microphone",
-            iconURL: "https://image.flaticon.com/icons/svg/149/149427.svg",
-            description: "Hello? Hello? Can you hear me?",
-            priority: .red)
-        
-        let itemTwo = PolicyResponse.PolicyItem(
-            title: "Contacts",
-            iconURL: "https://image.flaticon.com/icons/svg/902/902765.svg",
-            description: "Ollie has invited you to play FarmVille",
-            priority: .amber)
-        
-        let headers: HTTPHeaders = HTTPHeaders([
-            ("Content-Type", "application/json"),
-            ("Ocp-Apim-Subscription-Key", "9f15461943a84e909570b6b44cefbf11")]
-        )
-        
-        let client = HTTPClient.connect(
-            hostname: "https://parker.cognitiveservices.azure.com",
-            on: req)
-        
         let batchedContent = StringBatchService.batch(string: privacyContent, batchLength: 1024)
-//        
-//        let requests = batchedContent.map(to: NLPRequest.self, on: <#T##Worker#>, <#T##callback: ([S]) throws -> T##([S]) throws -> T#>)
-//        
-//        let requests = batchedContent.map(to: NLPRequest.self) {
-//            return NLPRequest(documents: [
-//                NLPRequest.Document(language: "en", id: UUID().uuidString, text: $0)
-//            ])
-//            }
-//            .flatMap(to: Response.self) { request in
-//
-//                let body = HTTPBody(data: try! JSONEncoder().encode(request))
-//                let httpReq = HTTPRequest(
-//                    method: .POST,
-//                    url: URL(string: "/text/analytics/v2.1/keyPhrases")!,
-//                    headers: headers,
-//                    body: body)
-//
-//                return client.send(httpReq)
-//        }
 
+        let requests = batchedContent.map {
+            return NLPRequest(documents: [
+                NLPRequest.Document(language: "en", id: UUID().uuidString, text: $0)
+            ])
+        }
         
-    
+        let client = try req.client()
         
-        
-        // TODO: Find matches
-        // TODO: return result below
-        
-        return Future.map(on: req) { return PolicyResponse(items: [itemOne, itemTwo]) }
+        return requests.map { request in
+            return client.post("https://parker.cognitiveservices.azure.com/text/analytics/v2.1/keyPhrases",
+                        headers: HTTPHeaders([("Ocp-Apim-Subscription-Key", "9f15461943a84e909570b6b44cefbf11")]), beforeSend: { req in
+                                                                
+                try req.content.encode(request, as: .json)
+            })
+            
+        }.flatten(on: req)
+            .map(to: NLPResponse.self) { results in
+                                
+                let parsedItems = try results
+                    .compactMap { $0.http.body.data }
+                    .map { try JSONDecoder().decode(NLPResponse.self, from: $0) }
+                                
+                return NLPResponse(documents: parsedItems.flatMap { $0.documents })
+                
+        }.map(to: DocumentClassifier.Classification.self) { response in
+            return DocumentClassifier.classify(response: response)
+            
+        }.map(to: PolicyResponse.self) { classification in
+            
+            let redItems: [PolicyResponse.PolicyItem] = classification.redWarnings.compactMap {
+                guard let image = ImageResolutionService.resolve(for: $0) else {
+                    return nil
+                }
+                
+                return PolicyResponse.PolicyItem(title: $0, iconURL: image, description: "", priority: .red)
+            }
+            
+            let amberItems: [PolicyResponse.PolicyItem] = classification.amberWarnings.compactMap {
+                guard let image = ImageResolutionService.resolve(for: $0) else {
+                    return nil
+                }
+                
+                return PolicyResponse.PolicyItem(title: $0, iconURL: image, description: "", priority: .amber)
+            }
+            
+            return PolicyResponse(items: redItems + amberItems)
+        }
     }
 }
-
-//private func request(_ request: NLPRequest, incomingRequest: Request) -> Future<NLPResponse> {
-//
-
-//
-//}

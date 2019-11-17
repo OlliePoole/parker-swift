@@ -5,8 +5,13 @@ public func routes(_ router: Router) throws {
 
     router.post("analyse") { req -> Future<PolicyResponse> in
         
-        let privacyContent = try req.content.syncDecode(AnalysisRequest.self).content
-        let batchedContent = StringBatchService.batch(string: privacyContent, batchLength: 1024)
+        let rawPolicy = try req.content.syncDecode(AnalysisRequest.self).content
+        
+        guard let policy = PolicyRepository.loadPolicy(rawPolicy) else {
+            throw Abort(.notFound)
+        }
+        
+        let batchedContent = StringBatchService.batch(string: policy, batchLength: 1024)
 
         let requests = batchedContent.map {
             return NLPRequest(documents: [
@@ -42,7 +47,11 @@ public func routes(_ router: Router) throws {
                     return nil
                 }
                 
-                return PolicyResponse.PolicyItem(title: $0, iconURL: image, description: "", priority: .red)
+                guard let description = DescriptionResolver.resolveDescripton(for: $0) else {
+                    return nil
+                }
+                
+                return PolicyResponse.PolicyItem(title: $0, iconURL: image, description: description, priority: .red)
             }
             
             let amberItems: [PolicyResponse.PolicyItem] = classification.amberWarnings.compactMap {
@@ -50,7 +59,11 @@ public func routes(_ router: Router) throws {
                     return nil
                 }
                 
-                return PolicyResponse.PolicyItem(title: $0, iconURL: image, description: "", priority: .amber)
+                guard let description = DescriptionResolver.resolveDescripton(for: $0) else {
+                    return nil
+                }
+                
+                return PolicyResponse.PolicyItem(title: $0, iconURL: image, description: description, priority: .amber)
             }
             
             return PolicyResponse(items: redItems + amberItems)

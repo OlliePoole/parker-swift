@@ -1,4 +1,0 @@
-module CNIOZlib {
-    umbrella header "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/CNIOZlib/include/CNIOZlib.h"
-    export *
-}

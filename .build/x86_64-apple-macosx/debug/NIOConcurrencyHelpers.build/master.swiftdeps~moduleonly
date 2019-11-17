@@ -1,6 +1,0 @@
-version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
-options: "af5a82e192cf4adcd8d48992edaec1fb"
-build_time: [1573947773, 676930000]
-inputs:
-  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/atomics.swift": [1573947747, 936995545]
-  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/lock.swift": [1573947747, 937314905]

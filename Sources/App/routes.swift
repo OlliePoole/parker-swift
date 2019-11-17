@@ -30,23 +30,25 @@ public func routes(_ router: Router) throws {
         
         let batchedContent = StringBatchService.batch(string: privacyContent, batchLength: 1024)
         
-//        let requests = batchedContent.map(to: NLPRequest.self) {
-//            return NLPRequest(documents: [
-//                NLPRequest.Document(language: "en", id: UUID().uuidString, text: $0)
-//            ])
-//            }
-//            .flatMap(to: Response.self) { request in
-//
-//                let body = HTTPBody(data: try! JSONEncoder().encode(request))
-//                let httpReq = HTTPRequest(
-//                    method: .POST,
-//                    url: URL(string: "/text/analytics/v2.1/keyPhrases")!,
-//                    headers: headers,
-//                    body: body)
-//
-//                return client.send(httpReq)
-//        }
-//
+        let requests = batchedContent.map(to: NLPRequest.self, on: <#T##Worker#>, <#T##callback: ([S]) throws -> T##([S]) throws -> T#>)
+        
+        let requests = batchedContent.map(to: NLPRequest.self) {
+            return NLPRequest(documents: [
+                NLPRequest.Document(language: "en", id: UUID().uuidString, text: $0)
+            ])
+            }
+            .flatMap(to: Response.self) { request in
+
+                let body = HTTPBody(data: try! JSONEncoder().encode(request))
+                let httpReq = HTTPRequest(
+                    method: .POST,
+                    url: URL(string: "/text/analytics/v2.1/keyPhrases")!,
+                    headers: headers,
+                    body: body)
+
+                return client.send(httpReq)
+        }
+
         
     
         

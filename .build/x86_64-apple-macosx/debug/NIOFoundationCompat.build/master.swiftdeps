@@ -1,5 +1,0 @@
-version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
-options: "9d42383944bf61e53bd15268491c305f"
-build_time: [1573947781, 866780000]
-inputs:
-  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/ByteBuffer-foundation.swift": [1573947747, 938118606]

@@ -1,8 +1,0 @@
-version: "Apple Swift version 5.1.2 (swiftlang-1100.0.278 clang-1100.0.33.9)"
-options: "16903297cea1d0323bbd0e91a74de575"
-build_time: [1573947788, 122603000]
-inputs:
-  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/crypto/Sources/Random/Array+Random.swift": [1573947747, 222996369]
-  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/crypto/Sources/Random/OSRandom.swift": [1573947747, 223151071]
-  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/crypto/Sources/Random/RandomProtocol.swift": [1573947747, 223398622]
-  "/Users/oliverpoole/Development Projects/Hackathons/Parker/backend-better/parker/.build/checkouts/crypto/Sources/Random/URandom.swift": [1573947747, 223567370]
